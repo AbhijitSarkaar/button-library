@@ -1,3 +1,3 @@
-# Frontend is deployed on heroku
+## Frontend is deployed on heroku
 
-# Link: https://button-library.herokuapp.com/
+## Link: https://button-library.herokuapp.com/
