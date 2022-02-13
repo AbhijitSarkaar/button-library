@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from './Button/index.tsx';
+import Button from './components/Button';
 import styled from 'styled-components';
 
 const App = () => {
     return (
         <Container>
-            <Button name={'Default'} />
+            <Button name="Default" />
         </Container>
     );
 };

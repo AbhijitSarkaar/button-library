@@ -31,5 +31,8 @@ module.exports = {
             extensions: ['js', 'tsx'],
             failOnWarning: true
         })
-    ]
+    ],
+    resolve: {
+        extensions: ['...', '.tsx']
+    }
 };
