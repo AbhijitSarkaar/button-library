@@ -1,14 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-interface IButtonProps {
-    name: string;
-}
-
-const Button = (props: IButtonProps) => {
-    const { name } = props;
+const Button = () => {
     return (
-        <ButtonContainer data-testid="button-container">{name}</ButtonContainer>
+        <ButtonContainer data-testid="button-container">Button</ButtonContainer>
     );
 };
 
