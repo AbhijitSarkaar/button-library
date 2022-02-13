@@ -15,6 +15,11 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
             },
+            {
+                test: /\.tsx$/,
+                exclude: /node_modules/,
+                loader: 'ts-loader',
+            },
         ],
     },
     plugins: [new HtmlWebpackPlugin({
