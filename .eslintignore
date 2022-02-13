@@ -2,3 +2,4 @@ node_modules
 dist
 config
 **/*.test.js
+jest.config.js
